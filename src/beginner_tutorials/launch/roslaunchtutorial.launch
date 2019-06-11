@@ -1,0 +1,6 @@
+<launch>
+    <node name="talkermsg" pkg="beginner_tutorials" type="talker" output="screen" clear_params="true" required="true">
+    </node>
+    <node name="listenermsg" pkg="beginner_tutorials" type="listener" output="screen" clear_params="true" required="true">
+    </node>
+</launch>
